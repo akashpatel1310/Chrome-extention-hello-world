@@ -1,0 +1,13 @@
+{
+    "name": "Getting Started Example",
+    "version": "1.0",
+    "description": "Build an Extension!",
+
+    "browser_action":{
+        "default_popup": "popup.html"
+    },
+
+    "permissions": ["storage" , "activeTab" , "https://ajax.googleapis.com/"],
+    
+    "manifest_version": 2
+  }
